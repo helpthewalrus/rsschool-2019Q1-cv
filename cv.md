@@ -5,7 +5,7 @@
 ### Contacts
 * Email: [alinatylets@gmail.com](mailto:alinatylets@gmail.com)
 * Mobile phone: +375 (33) 675-15-03
-* Github: [https://github.com/helpthewalrus] (https://github.com/helpthewalrus)
+* Github: [https://github.com/helpthewalrus](https://github.com/helpthewalrus)
 
 ### Summary
 Software testing engineer with experience in business analysis, recently began studying web programming and decided to change my current job in order to have more experience in this field. Being flexible, reliable and having good communication skills, I can be a strong and friendly addition to your company.
