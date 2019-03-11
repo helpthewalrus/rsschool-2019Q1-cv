@@ -3,37 +3,20 @@
 ## Junior Front End Developer
 
 ### Contacts
-* Email: alinatylets@gmail.com
-* Mobile phone: +375336751503
-* Github: https://github.com/helpthewalrus
+* Email: [alinatylets@gmail.com](mailto:alinatylets@gmail.com)
+* Mobile phone: +375 (33) 675-15-03
+* Github: [https://github.com/helpthewalrus](https://github.com/helpthewalrus)
 
 ### Summary
 Software testing engineer with experience in business analysis, recently began studying web programming and decided to change my current job in order to have more experience in this field. Being flexible, reliable and having good communication skills, I can be a strong and friendly addition to your company.
 
 ### Work Experience
 
-* __Exon IT__
+| Company | Job title | Working period | Job description |
+| :-----: | :-------: | :------------: | --------------- |
+| Exon IT | QA specialist | November 2016 - present time | 1. Analysis of business requirements and communicating with customers to clarify them<br/> 2. Creating specifications for developers and writing test documentation<br/> 3. Product testing and bug reports writing |
+| Vitrum Clima | Foreign economic activity specialist | April 2016 - August 2016 | 1. General office duties and administrative tasks<br/> 2. Working with supporting documentation<br/> 3. External and internal mail functions management<br/> 4. Creating of catering equipment database |
 
-  QA specialist
-
-  November 2016 - present time
-
-  Job description:
-  1. Analysis of business requirements and communicating with customer to clarify them
-  2. Creating specifications for developers and writing test documentation
-  3. Product testing and bug reports writing
-
-* __Vitrum Clima__
-
-  Foreign economic activity specialist
-  
-  April 2016 - August 2016
-
-  Job description:
-  1. General office duties and administrative tasks
-  2. Working with supporting documentation
-  3. External and internal mail functions management
-  4. Creating of catering equipment database
 
 ### Education
 
