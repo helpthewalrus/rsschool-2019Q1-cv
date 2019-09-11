@@ -1,0 +1,276 @@
+body {
+  display: grid;
+  height: 100vh;
+  grid-template-rows: auto 1fr;
+  grid-template-areas: "header"
+                        "main";
+  grid-row-gap: 30px;
+
+
+  color: #3b4a54;
+  font-family: "Rubik", "Arial", sans-serif;
+}
+
+a {
+  color: #75b3a0;
+  transition: color 0.5s ease-out;
+}
+
+a:focus {
+  outline: 1px solid #75b3a0;
+}
+
+a:hover {
+  color: #D7B292;
+}
+
+/***************************
+*******HEADER STYLING*******
+***************************/
+
+.header {
+  grid-area: header;
+
+  position: relative;
+
+  width: 100%;
+
+  background-color: #f1f3f4;
+}
+
+.header::before {
+  content: "";
+
+  position: absolute;
+
+  width: 100%;
+  height: 10px;
+
+  background-color: #75b3a0;
+}
+
+.header-wrapper {
+  position: relative;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  max-width: 1024px;
+  padding: 3%;
+  margin: 0 auto;
+}
+
+.header-wrapper::after {
+  content: "";
+
+  position: absolute;
+  bottom: 0;
+
+  width: 100%;
+  height: 5px;
+
+  background-color: #3b4a54;
+}
+
+.header-wrapper-left {
+  min-width: 280px;
+  margin-bottom: 15px;
+}
+
+.header-wrapper-left h1 {
+  position: relative;
+
+  display: block;
+  margin-bottom: 30px;
+
+  font-weight: normal;
+  letter-spacing: 10px;
+  line-height: 35px;
+  text-transform: uppercase;
+  word-spacing: 10px;
+  text-align: center;
+}
+
+.header-wrapper-left h1:after {
+  content: "";
+
+  position: absolute;
+  top: 125%;
+  left: 30%;
+
+  width: 35%;
+  height: 2px;
+
+  background-color: #75b3a0;
+}
+
+.header-wrapper-left p {
+  font-weight: lighter;
+  letter-spacing: 2px;
+  text-align: center;
+  text-transform: uppercase;
+  word-spacing: 5px;
+}
+
+.header-wrapper-right {
+  min-width: 210px;
+}
+
+.header-wrapper-right img {
+  display: block;
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+
+  border: 5px solid #75b3a0;
+  border-radius: 50%;
+}
+
+/***************************
+*******MAIN STYLING*******
+***************************/
+
+.section h2 {
+  margin-bottom: 20px;
+
+  color: #75b3a0;
+  letter-spacing: 9px;
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: lighter;
+  word-spacing: 3px;
+  line-height: 25px;
+}
+
+.section {
+  position: relative;
+
+  padding: 20px 15px;
+  border-bottom: 1px solid #3b4a54;
+}
+
+/*******LISTS STYLING******/
+
+.contacts-list,
+.portfolio-list,
+.courses-list,
+.skills-list,
+.work-responsibilities {
+  padding-left: 30px;
+}
+
+.contact-item::before,
+.portfolio-example:before,
+.course::before,
+.skill::before,
+.work-responsibility::before {
+  position: absolute;
+  left: -30px;
+
+  width: 20px;
+  height: 20px;
+
+  background-size: contain;
+}
+
+.contact-item:not(:last-child),
+.portfolio-example:not(:last-child),
+.course:not(:last-child),
+.skill:not(:last-child),
+.work-responsibility:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+.contact-item,
+.portfolio-example,
+.course,
+.skill,
+.work-responsibility {
+  position: relative;
+}
+
+.portfolio-example:before,
+.course::before,
+.skill::before,
+.work-responsibility::before {
+  content: "\25A2";
+
+  color: #75b3a0;
+}
+
+.contact-item::before {
+  content: "";
+}
+
+.contacts-list .location::before {
+  background-image: url("../assets/location.png");
+}
+
+.contacts-list .email::before {
+  background-image: url("../assets/email.png");
+}
+
+.contacts-list .phone::before {
+  background-image: url("../assets/phone.png");
+}
+
+.contacts-list .github::before {
+  background-image: url("../assets/github.png");
+}
+
+/*******GRID STYLING******/
+
+main {
+  display: grid;
+  grid-template-columns: 1fr minmax(340px, 600px);
+  grid-template-areas: "contacts summary"
+                      "education skills"
+                      "portfolio work"
+                      "courses work";
+  grid-column-gap: 30px;
+  grid-row-gap: 15px;
+
+  grid-area: main;
+  justify-self: center;
+
+  max-width: 1024px;
+}
+
+.section.contacts {
+  grid-area: contacts;
+}
+
+.section.education {
+  grid-area: education;
+}
+
+.section.portfolio {
+  grid-area: portfolio;
+}
+.section.courses {
+  grid-area: courses;
+}
+.section.summary {
+  grid-area: summary;
+}
+.section.skills {
+  grid-area: skills;
+}
+.section.work-experience {
+  grid-area: work;
+}
+
+.education p,
+.summary p {
+  line-height: 25px;
+}
+
+.work-description {
+  margin-bottom: 30px;
+}
+
+.work-description h3,
+.work-description p {
+  margin-bottom: 20px;
+}
